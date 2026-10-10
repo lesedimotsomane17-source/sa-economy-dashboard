@@ -30,4 +30,4 @@ Stage 1 in progress.
 ## Author
 
 Lesedi Motsomane
-BCom Honours in Economics
+
