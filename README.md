@@ -28,7 +28,7 @@ This project pulls official South African economic data, cleans it with Python, 
 
 ## Status
 
-Stage 1 complete:CPI inflation done,three indicators to go.
+Stage 1 complete:CPI inflation and repo rate done ,two indicators to go.
 
 ## Author
 
