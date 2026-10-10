@@ -5,6 +5,9 @@ A Power BI dashboard that tracks key South African economic indicators, supporte
 ## About this project
 
 This project pulls official South African economic data, cleans it with Python, and presents it in an interactive dashboard. It is built in stages, and this repo will grow as each stage is completed.
+## Preview
+
+![South African Economy Dashboard](images/dashboard-stage1.png)
 
 ## Stage 1 indicators
 
@@ -25,7 +28,7 @@ This project pulls official South African economic data, cleans it with Python, 
 
 ## Status
 
-Stage 1 in progress.
+Stage 1 complete:CPI inflation done,three indicators to go.
 
 ## Author
 
