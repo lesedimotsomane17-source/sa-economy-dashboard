@@ -11,15 +11,19 @@ This project pulls official South African economic data, cleans it with Python, 
 
 ## Stage 1 indicators
 
-- GDP growth
-- CPI inflation
+- Real GDP growth (year-on-year %)
+- CPI inflation (year-on-year %)
 - Unemployment rate
 - Repo rate
 
 ## Data sources
 
-- Stats SA (GDP, CPI, unemployment)
-- South African Reserve Bank (repo rate)
+- CPI inflation: Stats SA (monthly, from January 2000)
+- Repo rate: South African Reserve Bank policy rate (monthly, from December 2001, when the SARB series begins)
+- GDP growth: calculated from the SARB's seasonally adjusted real GDP at constant 2015 prices (quarterly, from Q4 2000)
+- Unemployment: Stats SA Quarterly Labour Force Survey, via the BER Data Portal (quarterly, from Q1 2008, when the survey began)
+
+Quarterly figures are repeated across the three months of their quarter so they line up with the monthly data.
 
 ## Tools
 
@@ -28,7 +32,7 @@ This project pulls official South African economic data, cleans it with Python, 
 
 ## Status
 
-Stage 1 complete:CPI inflation and repo rate done ,two indicators to go.
+Stage 1 in progress: data pipeline complete for all four indicators. The dashboard currently shows inflation and the repo rate, with GDP growth and unemployment charts to follow.
 
 ## Author
 
