@@ -1,0 +1,34 @@
+INFLATION AND THE REPO RATE
+Months with both series: 297 (2001-12 to 2026-08)
+
+Levels
+  Correlation: 0.57
+  A 1-point rise in inflation goes with a 0.56-point higher repo rate
+  Ordinary p-value: < 0.001 (too small, because the series are persistent)
+  Newey-West: t = 3.5, p < 0.001
+  Month-to-month autocorrelation: inflation 0.97, repo rate 0.99
+
+12-month changes
+  Correlation: 0.74
+  Newey-West: t = 9.3, p < 0.001
+
+Does one lead the other? (Granger tests on monthly changes, lags 1 to 6)
+  Inflation changes help predict repo rate changes: lag 1 p < 0.001, lag 2 p < 0.001, lag 3 p 0.005, lag 4 p < 0.001, lag 5 p < 0.001, lag 6 p < 0.001
+  Repo rate changes help predict inflation changes: lag 1 p < 0.001, lag 2 p < 0.001, lag 3 p < 0.001, lag 4 p < 0.001, lag 5 p < 0.001, lag 6 p 0.001
+  Significant in both directions, so the data cannot say which drives which.
+
+Is the link stable? (correlation of levels)
+  2001-12 to 2009-12: 0.78 (97 months)
+  2010-01 to 2019-12: -0.11 (120 months)
+  2020-01 to 2026-08: 0.13 (80 months)
+
+Peaks in each episode
+  2002-01 to 2004-06: inflation peak 13.0% in 2002-10, repo peak 13.50% in 2002-09
+  2007-06 to 2010-06: inflation peak 13.7% in 2008-08, repo peak 12.00% in 2008-06
+  2021-06 to 2024-12: inflation peak 7.8% in 2022-07, repo peak 8.25% in 2023-05
+
+Gap between the repo rate and inflation (repo rate minus latest inflation)
+  2026-08: 2.6 points (repo 7.00%, inflation 4.4%)
+  Average since 2001-12: 1.8 points
+
+These tests describe how the series move together. They do not prove cause and effect.
