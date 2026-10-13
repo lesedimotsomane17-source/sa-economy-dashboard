@@ -39,6 +39,19 @@ Quarterly figures are repeated across the three months of their quarter so they 
 - Python (data collection and cleaning)
 - Power BI (dashboard)
 
+## How to run
+
+1. Install the packages: `pip install -r requirements.txt`
+2. Clean each indicator:
+   - `python src/clean_cpi.py data/raw/CPIHistory.pdf data/clean/cpi_inflation.csv`
+   - `python src/clean_repo_rate.py data/raw/HistoricalRateDetail.pdf data/clean/repo_rate.csv`
+   - `python src/clean_gdp.py data/raw/SDDSDetail.csv data/clean/gdp_growth.csv`
+   - `python src/clean_unemployment.py data/raw/ber-labour-official-lu3.csv data/clean/unemployment_rate.csv`
+3. Combine them: `python src/build_dataset.py`
+4. Run the inflation and repo rate analysis: `python src/analyse_inflation_repo.py`
+
+The Power BI dashboard reads `data/clean/economy_monthly.csv`.
+
 ## Status
 
 Stage 1 complete: CPI inflation, repo rate, GDP growth and unemployment.
