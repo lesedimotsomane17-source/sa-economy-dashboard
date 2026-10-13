@@ -36,7 +36,7 @@ Quarterly figures are repeated across the three months of their quarter so they 
 
 ## Tools
 
-- Python (data collection and cleaning)
+- Python: pandas and pdfplumber (data collection and cleaning), statsmodels (statistical tests)
 - Power BI (dashboard)
 
 ## How to run
